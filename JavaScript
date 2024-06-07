@@ -1,0 +1,19 @@
+let productos = ["Producto 1", "Producto 2", 
+"Producto 3", "Producto 4", "Producto 5"];
+
+// Bucle for 
+
+console.log ("Productos en stock");
+for (let i = 0; i < productos.length; i++ ) {
+    console.log (productos [i]);
+}
+
+
+for (let i = 0; i < 2; i++) {
+    console.log("Vendiendo: " + productos.pop ());
+}
+
+console.log ("Productos restantes en stock:");
+for (let i = 0; i < productos.length; i++) {
+    console.log (productos [i] );
+}
